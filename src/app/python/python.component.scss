@@ -1,0 +1,27 @@
+$primarycolor:#CECFCD;
+$secondarycolor:#F5F5F5;
+$defaultcolor:#BFBFBF;
+$font-stack:'Roboto',sans-serif;
+$bannecolor:#fafafa;
+$textcolor:#878F9D;
+$signbuttoncolor:#00BBC6;
+$backbtn:#383838;
+$span:red;
+
+.python{
+    margin: 0;
+    padding: 0;
+&__heading{
+    color: $signbuttoncolor;
+}
+&__height{
+    height: 755px;
+}
+&__card-text{
+    color: $signbuttoncolor;
+    font-size: 16px;
+}
+&__card-text-span{
+    color:$span ;
+}
+}
